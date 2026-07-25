@@ -11,7 +11,7 @@ for both experienced developers and interns.
 ## Overview
 
 This project follows a professional Git workflow to maintain code quality,
-collaboration, and stability.
+collaboration and stability.
 
 The workflow structure:
 
