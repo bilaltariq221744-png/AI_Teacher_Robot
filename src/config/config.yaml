@@ -1,0 +1,83 @@
+# =============================================================================
+# AI Teacher Robot — Default Configuration
+# =============================================================================
+# This file contains the default configuration for the AI Teacher Robot.
+# Values defined here can be overridden by environment variables (see .env).
+#
+# Configuration is loaded by src/config/settings.py using the Settings class.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Application
+# -----------------------------------------------------------------------------
+app:
+  name: "AI Teacher Robot"
+  version: "0.1.0"
+  debug: false
+
+# -----------------------------------------------------------------------------
+# Audio
+# -----------------------------------------------------------------------------
+audio:
+  sample_rate: 16000          # Audio sample rate in Hz
+  chunk_size: 1024            # Audio chunk size for processing
+  channels: 1                 # Mono audio
+  device_index: null          # Audio input device index (null = default)
+
+# -----------------------------------------------------------------------------
+# Speech-to-Text (STT)
+# -----------------------------------------------------------------------------
+stt:
+  engine: "vosk"              # STT engine: "vosk", "whisper", etc.
+  model_path: "models/stt"    # Path to the STT model directory
+  language: "en"              # Default language for STT
+  timeout: 5                  # Timeout in seconds for listening
+
+# -----------------------------------------------------------------------------
+# Language Detection
+# -----------------------------------------------------------------------------
+language_detection:
+  enabled: true               # Enable/disable language detection
+  default_language: "en"      # Fallback language if detection fails
+
+# -----------------------------------------------------------------------------
+# LLM (Large Language Model)
+# -----------------------------------------------------------------------------
+llm:
+  api_url: "http://localhost:11434/api/chat"  # Local LLM API endpoint
+  model: "llama3"             # LLM model name
+  timeout: 30                 # Timeout in seconds for LLM API requests
+  max_tokens: 500             # Maximum tokens in the LLM response
+  temperature: 0.7            # Sampling temperature (0.0 = deterministic)
+  system_prompt_en: "You are a helpful AI teacher for students in Grade 2 to Grade 10. Answer questions clearly and concisely."
+  system_prompt_ur: "آپ ایک مددگار ای آئی اساتذہ ہیں جو گریڈ 2 سے گریڈ 10 تک کے طلباء کے لئے ہیں۔ سوالات کا واضح اور مختصر جواب دیں۔"
+
+# -----------------------------------------------------------------------------
+# Text-to-Speech (TTS)
+# -----------------------------------------------------------------------------
+tts:
+  engine: "pyttsx3"           # TTS engine: "pyttsx3", "coqui", "espeak", etc.
+  language: "en"              # Default language for TTS
+  rate: 200                   # Speech rate (words per minute)
+  volume: 1.0                 # Volume level (0.0 to 1.0)
+  voice_id: null              # Voice ID (null = default voice)
+
+# -----------------------------------------------------------------------------
+# Hardware (Robot Animations)
+# -----------------------------------------------------------------------------
+hardware:
+  enabled: true               # Enable/disable hardware control
+  eye_left_gpio: 18           # GPIO pin for left eye servo
+  eye_right_gpio: 19          # GPIO pin for right eye servo
+  mouth_gpio: 13              # GPIO pin for mouth servo
+  pwm_frequency: 50           # PWM frequency for servos in Hz
+  animation_speed: 1.0        # Animation speed multiplier
+
+# -----------------------------------------------------------------------------
+# Logging
+# -----------------------------------------------------------------------------
+logging:
+  level: "INFO"               # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  log_file: "logs/ai_teacher_robot.log"
+  rotation: "10 MB"           # Log file rotation size
+  retention: "7 days"         # How long to keep old log files

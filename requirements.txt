@@ -1,0 +1,45 @@
+# =============================================================================
+# AI Teacher Robot — Production Dependencies
+# =============================================================================
+# This file lists the runtime dependencies required to run the AI Teacher
+# Robot application on a Raspberry Pi.
+#
+# Install with:
+#   pip install -r requirements.txt
+# =============================================================================
+
+# --- Core ---
+# YAML configuration parsing
+PyYAML>=6.0,<7.0
+
+# Structured logging
+loguru>=0.7,<0.8
+
+# Environment variable management
+python-dotenv>=1.0,<2.0
+
+# --- Speech-to-Text (STT) ---
+# Placeholder: Speech recognition library (e.g., Vosk, Whisper.cpp bindings)
+# vosk>=0.3,<0.4
+# Placeholder: Urdu language support for STT
+# (to be added once the STT engine is selected)
+
+# --- LLM Client ---
+# HTTP client for communicating with the local LLM API
+requests>=2.31,<3.0
+
+# --- Text-to-Speech (TTS) ---
+# Placeholder: TTS engine (e.g., pyttsx3, edge-tts, or Coqui TTS)
+# pyttsx3>=2.90,<3.0
+# Placeholder: Urdu TTS support
+# (to be added once the TTS engine is selected)
+
+# --- Hardware / Robotics ---
+# Placeholder: GPIO and servo control for Raspberry Pi
+# RPi.GPIO>=0.7,<0.8
+# Placeholder: PWM / servo control library
+# pigpio>=1.79,<2.0
+
+# --- Utilities ---
+# Date/time handling
+python-dateutil>=2.8,<3.0

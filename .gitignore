@@ -1,0 +1,175 @@
+# =============================================================================
+# AI Teacher Robot — .gitignore
+# =============================================================================
+# This file lists all files and directories that should NOT be tracked by Git.
+# It covers Python, Raspberry Pi / Linux, IDE, OS, and project-specific
+# exclusions.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.c
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Type checkers
+.mypy_cache/
+.mypy_cache/
+*.pyi
+py.typed
+
+# Linters / formatters
+.ruff_cache/
+.flake8
+.pytest_cache/
+
+# -----------------------------------------------------------------------------
+# Raspberry Pi / Linux
+# -----------------------------------------------------------------------------
+# System logs
+*.log
+
+# Swap files
+*.swp
+*.swo
+*~
+
+# Linux / Raspberry Pi OS
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# GPIO and hardware-specific
+gpio/
+.hwinit
+
+# -----------------------------------------------------------------------------
+# Models & Large Files
+# -----------------------------------------------------------------------------
+# Model weights, quantized LLMs, and STT/TTS model files are large binary
+# artifacts. They should be downloaded by scripts, not committed to Git.
+models/*.gguf
+models/*.bin
+models/*.pt
+models/*.safetensors
+models/*.onnx
+models/*.tar.gz
+models/*.zip
+models/checkpoints/
+models/ggml_*.bin
+
+# -----------------------------------------------------------------------------
+# IDE / Editor
+# -----------------------------------------------------------------------------
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# -----------------------------------------------------------------------------
+# Environment / Secrets
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# -----------------------------------------------------------------------------
+# OS / System
+# -----------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# -----------------------------------------------------------------------------
+# Project-Specific
+# -----------------------------------------------------------------------------
+# Logs directory contents (keep the folder via .gitkeep)
+logs/*
+!logs/.gitkeep
+
+# Assets (keep the folder structure via .gitkeep)
+assets/images/*
+!assets/images/.gitkeep
+assets/sounds/*
+!assets/sounds/.gitkeep
+assets/fonts/*
+!assets/fonts/.gitkeep
+
+# Scripts (keep the folder via .gitkeep)
+scripts/*.sh
+!scripts/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp

@@ -1,0 +1,56 @@
+# =============================================================================
+# AI Teacher Robot — Pre-commit Hooks Configuration
+# =============================================================================
+# This file configures pre-commit hooks for the AI Teacher Robot project.
+# Install pre-commit and set up the hooks:
+#
+#   pip install pre-commit
+#   pre-commit install
+#
+# Hooks are run automatically before each commit.
+# =============================================================================
+
+repos:
+  # --- Ruff (Linter) ---
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.0
+    hooks:
+      - id: ruff
+        args: [--fix, --exit-non-zero-on-fix]
+
+  # --- Black (Code Formatter) ---
+  - repo: https://github.com/psf/black
+    rev: 23.12.1
+    hooks:
+      - id: black
+        language_version: python3.11
+
+  # --- isort (Import Sorter) ---
+  - repo: https://github.com/pycqa/isort
+    rev: 5.13.2
+    hooks:
+      - id: isort
+
+  # --- Pytest (Run tests) ---
+  - repo: local
+    hooks:
+      - id: pytest
+        name: pytest
+        entry: pytest tests/ -v
+        language: system
+        pass_filenames: false
+        always_run: true
+
+  # --- Check for added large files ---
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-added-large-files
+        args: ["--maxkb=500"]
+      - id: check-case-conflict
+      - id: check-merge-conflict
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: mixed-line-ending
+        args: ["--fix=lf"]
