@@ -1,0 +1,10 @@
+# Per-book curriculum metadata (G1). board/grade/subject are authoritative
+# here, not inferred from OCR. Add one entry per book you build; the PDF
+# filename is matched case-insensitively against `book`.
+books:
+  - book: general_science_5
+    edition: ""
+    board: PCTB
+    grade: "5"
+    subject: Science
+    language: english

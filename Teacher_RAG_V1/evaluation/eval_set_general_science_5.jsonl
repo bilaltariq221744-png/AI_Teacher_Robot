@@ -1,0 +1,36 @@
+{"id": "gs5-001", "category": "answerable", "question": "What are the five kingdoms in the Five Kingdom System of classification?", "expected": "answer"}
+{"id": "gs5-002", "category": "answerable", "question": "What is a microorganism?", "expected": "answer"}
+{"id": "gs5-003", "category": "answerable", "question": "What are the four parts of a flower?", "expected": "answer"}
+{"id": "gs5-004", "category": "answerable", "question": "What is environmental pollution?", "expected": "answer"}
+{"id": "gs5-005", "category": "answerable", "question": "What is a physical change in matter?", "expected": "answer"}
+{"id": "gs5-006", "category": "answerable", "question": "What is the speed of light?", "expected": "answer"}
+{"id": "gs5-007", "category": "answerable", "question": "What are the two types of electric charge?", "expected": "answer"}
+{"id": "gs5-008", "category": "answerable", "question": "What is the crust of the Earth?", "expected": "answer"}
+{"id": "gs5-009", "category": "answerable", "question": "Who launched Sputnik-1 and when did the space age begin?", "expected": "answer"}
+{"id": "gs5-010", "category": "paraphrased", "question": "Explain how living things are grouped into five main categories.", "expected": "answer"}
+{"id": "gs5-011", "category": "paraphrased", "question": "Why do we need a microscope to study some organisms?", "expected": "answer"}
+{"id": "gs5-012", "category": "paraphrased", "question": "Describe the male and female reproductive parts of a flower.", "expected": "answer"}
+{"id": "gs5-013", "category": "paraphrased", "question": "What are the three main types of pollution mentioned in the book?", "expected": "answer"}
+{"id": "gs5-014", "category": "paraphrased", "question": "How does ice turn into water when heated?", "expected": "answer"}
+{"id": "gs5-015", "category": "paraphrased", "question": "On which date did humans first land on the Moon?", "expected": "answer"}
+{"id": "gs5-016", "category": "roman_urdu", "question": "Paanch kingdom system mein organisms kaise classify hote hain?", "expected": "answer"}
+{"id": "gs5-017", "category": "roman_urdu", "question": "Microorganism kya hota hai?", "expected": "answer"}
+{"id": "gs5-018", "category": "roman_urdu", "question": "Phool ke kitne parts hote hain?", "expected": "answer"}
+{"id": "gs5-019", "category": "roman_urdu", "question": "Zameen ki teen layers kya hain?", "expected": "answer"}
+{"id": "gs5-020", "category": "roman_urdu", "question": "Static electricity kya hoti hai?", "expected": "answer"}
+{"id": "gs5-021", "category": "ocr_typo", "question": "Wat is teh Five Kingdm System of clasification?", "expected": "answer"}
+{"id": "gs5-022", "category": "ocr_typo", "question": "What r the mian gropus of microorganisms?", "expected": "answer"}
+{"id": "gs5-023", "category": "ocr_typo", "question": "Wat is the strucutre of a flwer?", "expected": "answer"}
+{"id": "gs5-024", "category": "ocr_typo", "question": "What is phsyical change in mater?", "expected": "answer"}
+{"id": "gs5-025", "category": "ocr_typo", "question": "Wat is teh crust of teh Earth?", "expected": "answer"}
+{"id": "gs5-026", "category": "wrong_chapter", "question": "What are the main organs of the human digestive system?", "expected": "decline"}
+{"id": "gs5-027", "category": "wrong_chapter", "question": "What is a simple machine and how does a lever work?", "expected": "decline"}
+{"id": "gs5-028", "category": "wrong_chapter", "question": "How do food chains and food webs work in an ecosystem?", "expected": "decline"}
+{"id": "gs5-029", "category": "wrong_chapter", "question": "What causes the four seasons on Earth?", "expected": "decline"}
+{"id": "gs5-030", "category": "wrong_chapter", "question": "How does the human respiratory system work?", "expected": "decline"}
+{"id": "gs5-031", "category": "wrong_chapter", "question": "What are the different types of simple machines used to lift heavy objects?", "expected": "decline"}
+{"id": "gs5-032", "category": "unrelated", "question": "What is the capital of France?", "expected": "decline"}
+{"id": "gs5-033", "category": "unrelated", "question": "Who won the last FIFA World Cup?", "expected": "decline"}
+{"id": "gs5-034", "category": "unrelated", "question": "What is the price of gold today?", "expected": "decline"}
+{"id": "gs5-035", "category": "unrelated", "question": "How do I bake a chocolate cake?", "expected": "decline"}
+{"id": "gs5-036", "category": "unrelated", "question": "What is the population of Pakistan?", "expected": "decline"}

@@ -1,0 +1,26 @@
+Chapter 06
+Light and Sound
+ii. By using torch, find out how much light passes from the objects given below?
+Objects
+Completely
+Partially
+Do not pass atall
+. Window pane
+. Wax paper
+. White thin cloth
+(dupatta)
+. Geometry box
+. Kite paper
+. Tissue paper
+. Wooden door
+. Clean water
+. Cardboard
+5. Project:
+>
+i. Make a pinhole camera by using cardboard box, wax paper or tissue paper.
+Observe the image formed by it. On which principle of light does it work?
+What are the characteristics of its image?
+ii. Make a simple musical instrument using a wooden board, iron nails, thin
+steel wires of different lengths and a hammer. On which principle does this
+instrument work? Observe also the intensity of sound produced by it.
+NOT FOR SALE

@@ -1,0 +1,738 @@
+[
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 1,
+    "chars": 70,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0001.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 2,
+    "chars": 92,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0002.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 3,
+    "chars": 74,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0003.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 4,
+    "chars": 105,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0004.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 5,
+    "chars": 144,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0005.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 6,
+    "chars": 2026,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0006.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 7,
+    "chars": 2227,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0007.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 8,
+    "chars": 2195,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0008.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 9,
+    "chars": 1849,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0009.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 10,
+    "chars": 861,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0010.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 11,
+    "chars": 1945,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0011.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 12,
+    "chars": 1804,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0012.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 13,
+    "chars": 1866,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0013.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 14,
+    "chars": 1833,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0014.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 15,
+    "chars": 1095,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0015.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 16,
+    "chars": 1013,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0016.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 17,
+    "chars": 1482,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0017.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 18,
+    "chars": 1628,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0018.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 19,
+    "chars": 1581,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0019.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 20,
+    "chars": 1665,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0020.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 21,
+    "chars": 553,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0021.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 22,
+    "chars": 1406,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0022.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 23,
+    "chars": 1597,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0023.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 24,
+    "chars": 1200,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0024.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 25,
+    "chars": 1794,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0025.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 26,
+    "chars": 1481,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0026.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 27,
+    "chars": 1006,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0027.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 28,
+    "chars": 2239,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0028.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 29,
+    "chars": 1828,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0029.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 30,
+    "chars": 1543,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0030.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 31,
+    "chars": 1040,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0031.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 32,
+    "chars": 959,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0032.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 33,
+    "chars": 866,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0033.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 34,
+    "chars": 1489,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0034.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 35,
+    "chars": 1200,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0035.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 36,
+    "chars": 1143,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0036.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 37,
+    "chars": 1890,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0037.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 38,
+    "chars": 1849,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0038.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 39,
+    "chars": 2270,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0039.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 40,
+    "chars": 1436,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0040.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 41,
+    "chars": 1533,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0041.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 42,
+    "chars": 1910,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0042.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 43,
+    "chars": 1385,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0043.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 44,
+    "chars": 1416,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0044.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 45,
+    "chars": 1530,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0045.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 46,
+    "chars": 1569,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0046.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 47,
+    "chars": 1086,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0047.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 48,
+    "chars": 1361,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0048.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 49,
+    "chars": 1070,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0049.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 50,
+    "chars": 1820,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0050.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 51,
+    "chars": 1656,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0051.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 52,
+    "chars": 1136,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0052.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 53,
+    "chars": 297,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0053.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 54,
+    "chars": 1750,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0054.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 55,
+    "chars": 1251,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0055.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 56,
+    "chars": 1776,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0056.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 57,
+    "chars": 1112,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0057.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 58,
+    "chars": 1976,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0058.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 59,
+    "chars": 541,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0059.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 60,
+    "chars": 352,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0060.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 61,
+    "chars": 1498,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0061.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 62,
+    "chars": 645,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0062.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 63,
+    "chars": 1116,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0063.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 64,
+    "chars": 927,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0064.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 65,
+    "chars": 872,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0065.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 66,
+    "chars": 2195,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0066.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 67,
+    "chars": 2270,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0067.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 68,
+    "chars": 1500,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0068.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 69,
+    "chars": 1733,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0069.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 70,
+    "chars": 1133,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0070.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 71,
+    "chars": 1985,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0071.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 72,
+    "chars": 2162,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0072.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 73,
+    "chars": 1734,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0073.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 74,
+    "chars": 812,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0074.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 75,
+    "chars": 672,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0075.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 76,
+    "chars": 960,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0076.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 77,
+    "chars": 1386,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0077.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 78,
+    "chars": 2747,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0078.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 79,
+    "chars": 1200,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0079.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 80,
+    "chars": 1774,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0080.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 81,
+    "chars": 1136,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0081.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 82,
+    "chars": 1268,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0082.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 83,
+    "chars": 2170,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0083.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 84,
+    "chars": 2576,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0084.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 85,
+    "chars": 2139,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0085.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 86,
+    "chars": 1707,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0086.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 87,
+    "chars": 2011,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0087.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 88,
+    "chars": 785,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0088.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 89,
+    "chars": 872,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0089.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 90,
+    "chars": 732,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0090.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 91,
+    "chars": 1738,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0091.txt"
+  },
+  {
+    "source_file": "updated_6 English-1.pdf",
+    "page": 92,
+    "chars": 67,
+    "lang": "en",
+    "extraction_method": "text_layer",
+    "text_file": "updated_6 English-1_page_0092.txt"
+  }
+]

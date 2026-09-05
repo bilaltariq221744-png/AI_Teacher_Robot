@@ -1,0 +1,37 @@
+Chapter 10 Technology in Everyday Life
+We can prepare decorating LED lights of one or more colours. Here we are going to
+prepare an LED light string of blue colour that could be lit by 12 V battery.
+Material Required:
+32 LED bulbs, 12 V battery, 1 metre long and 5 cm wide cardboard strip, a steel nail,
+connecting wires, a cutter and pliers.
+1. Take the cardboard strip and make 32 pairs
+of holes in it at equal distances with the help
+Figure 3
+of a steel nail (Figure 3).
+Insert all LEDs in the holes (Figure 4), keeping positive legs (longer wires) at one side
+of the strip and the shorter negative legs at the other side.
+Join all the 8 positive legs of set 1 together.
+Similarly, join their negative legs together
+on the other side. Repeat the same process
+for set 2, set 3 and set 4. | | | | | |
+4. Now join the negative side of set 1
+Figure 4
+to the positive side of set 2. In
+Precautions!
+the same way, jointhe negative
+side of set 2 to the positive side 1. Make sure that positive legs of all LEDs are at
+of set 3 and negative side of set one side of the cardboard strip and the negative
+legs on the other side. If an LED is not glowing,
+3 to positive side of set 4. Finally,
+change its leg sides and check it again. If still it
+connect positive side of set 1 to does not glow, it is a faulty LED. Replace it by a
+the positive terminal of the 12 V new one.
+The circuits of LED light strings to be
+4 to the negative terminal of the
+operated with 220 V A.C supply are different.
+battery. Yes, your LED light strip
+is ready.
+Observations:
+e You will observe that when the battery is connected to the LEDs, these start
+glowing. When the battery is disconnected, LEDs stop glowing.
+122

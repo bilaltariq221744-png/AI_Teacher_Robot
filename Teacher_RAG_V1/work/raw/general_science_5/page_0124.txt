@@ -1,0 +1,32 @@
+Chapter 10 Technology in Everyday Life
+Plumb Line
+Have you ever seen a mason constructing a brick wall? How does he check whether the wall
+is vertical or not? He uses a plumb line for that purpose.
+A plumb bob is a weight with a pointed tip at the bottom. One end of a string is tied to it as
+shown in figure. This is used as a vertical reference line usually called as plumb line. The free
+end of the string passes through a hole in the centre of a square plate having each side
+equal to the diameter of the bob as shown in the figure.
+Let us demonstrate how a plumb line is used to install a flag pole vertically.
+Activity 10.4
+1. Fix the pole in the ground vertically.
+2. Hold the square plate horizontally in contact
+with any side of the pole. og!
+\
+3. Allow the bob to fall downward. > String
+Observe the bob carefully whether the hanging &
+bob touches the poleorstaysaway.Thepolewill | 7
+fs
+be exactly vertical, when the bob just touches
+“Plumb bob
+the pole as shown in the figure. v
+Assembling Technical Devices
+Technical devices and machines are now widely used in our homes. They have made our
+life easy and comfortable. Manuals are provided along with every device. We are able to
+assemble and use these devices by following instructions written in the manuals.
+Preparing LED Light Strings
+LEDs are the tiny light emitting bulbs. When a small voltage of 2 to 3 volts is applied across
+an LED, it starts glowing. Lights of different colours are emitted by different LEDs (Figure 1).
+Figure Ee
+The longer leg (wire) of an LED is positive (+) and
+the shorter one is negative (—) (Figure 2). Figure 2
+121

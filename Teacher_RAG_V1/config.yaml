@@ -1,0 +1,82 @@
+# teacher_rag shared configuration (PC builder + Raspberry Pi runtime).
+# Field-by-field rationale: IMPLEMENTATION_GUIDE.md §2-§4.
+
+pc:
+  pdf_dir: ./data/pdfs
+  work_dir: ./work
+  db_path: ./work/lancedb
+  embed_model: intfloat/multilingual-e5-small
+  embed_dim: 384
+  embed_max_length: 512
+  dpi: 300
+  ocr_langs: [eng]            # add "urd" when the language pack is installed
+  ocr:
+    enabled: true             # false -> embedded-text-only mode (text-layer PDFs)
+  cleaning:
+    header_footer_frequency: 0.7   # line repeated on >= this share of pages is a running head
+    header_footer_window: 3        # only lines in the top/bottom N lines are candidates
+    watermark_repeat: 3            # same line repeated N times on ONE page -> watermark (F2)
+  watermark:
+    enabled: true
+    # C1.5 (ocr.py): style-based detection in the embedded-text layer.
+    # A line is flagged if it's rotated, oversized vs. body text, or very
+    # light-colored — tune these against a real sample book before trusting
+    # them; defaults are a reasonable starting point, not calibrated.
+    rotation_sin_threshold: 0.05     # |sin(angle)| above this = "rotated"
+    font_size_ratio_min_large: 1.6   # span size >= 1.6x median body size = "oversized"
+    light_color_threshold: 200       # luminance (0-255) >= this = "too light to be body text"
+    # F1b (cleaning.py): position-agnostic cross-page repetition (catches
+    # centered/diagonal watermarks that header_footer_window can't see).
+    cross_page_frequency: 0.5        # line repeated on >= this share of pages, ANY position
+    # F1c (cleaning.py): known watermark signatures, matched even once —
+    # this is what catches dynamic watermarks (timestamp/username baked in)
+    # that frequency-based detection can never see. Fill these in per-book
+    # after a first build; the eval report tells you if any leaked through.
+    #
+    # general_science_5.pdf specifically: on some pages Tesseract fuses the
+    # footer "NOT FOR SALE" stamp with the page number onto one OCR line
+    # (e.g. "NOT FOR SALE 48"), producing a unique string per page that no
+    # frequency-based detector can catch — confirmed via a full 134-page
+    # test build, where it slipped through as its own bogus section.
+    # Keyword substring matching catches it regardless of the trailing
+    # page number.
+    keywords: ["not for sale", "web version of pctb textbook", "pctb textbook"]
+    regex_patterns: []
+      # e.g. ["downloaded by .+ on \\d{4}-\\d{2}-\\d{2}"]
+  chunk:
+    child_min: 60
+    child_max: 120
+    overlap_sentences: 1
+    parent_min: 180
+    parent_max: 300
+    # Curated safety net (same pattern as pc.watermark.keywords): a heading
+    # candidate whose title contains one of these substrings is demoted back
+    # to plain body text instead of starting a new section. Exists because
+    # OCR occasionally misreads a diagram caption/illustration label as a
+    # short title-case line, which then gets promoted to a heading and
+    # silently swallows real chapter content under the wrong title. Add
+    # entries here after reviewing a build's section list for anything that
+    # looks like garbled image-label text rather than a real heading.
+    #
+    # general_science_5.pdf: confirmed via a full 134-page test build — a
+    # plant-parts diagram caption was misread as "Part of Plant Monocot
+    # Plant Oo Dicot Plant" and absorbed 12 pages of the "Classification of
+    # Living Organisms" chapter under that garbled title.
+    ignore_heading_keywords: ["oo dicot", "ontains lofty mountains"]
+  pipeline_version: 2026-08-pi-v1
+  curriculum: ./config/curriculum.yaml
+
+pi:
+  db_path: /home/pi/teacher_rag_bundle/database/lancedb
+  onnx_model: /home/pi/teacher_rag_bundle/models/multilingual-e5-small-onnx-int8
+  tokenizer: /home/pi/teacher_rag_bundle/models/multilingual-e5-small-onnx-int8/tokenizer.json
+  vector_top_k: 20
+  bm25_top_k: 20
+  rrf_k: 60
+  final_context_blocks: 5
+  context_tokens: 1200
+  relevance_threshold: 0.030621785881252923   # calibrated by src/eval.py (Step 10)
+  llm:
+    provider: ollama
+    model: qwen2.5:1.5b
+    num_ctx: 2048

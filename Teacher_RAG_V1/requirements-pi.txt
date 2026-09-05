@@ -1,0 +1,15 @@
+# Teacher RAG - Raspberry Pi 5 runtime (query-time only; no OCR/build deps)
+numpy>=1.26
+lancedb>=0.37                  # match PC version (manifest pins exact version)
+onnxruntime>=1.18
+PyYAML>=6.0
+click>=8.1
+langchain-core>=0.3
+langchain-ollama>=0.2
+# Needed for OnnxBackend's tokenizer (src/embeddings.py: AutoTokenizer.from_pretrained).
+# This does NOT pull in torch/tensorflow - `pip install transformers` alone stays
+# lightweight; only the tokenizer path is used on the Pi, inference runs through
+# onnxruntime. sentencepiece is a fallback for the slow tokenizer path in case the
+# exported bundle's fast tokenizer.json isn't picked up for any reason.
+transformers>=4.40
+sentencepiece>=0.2

@@ -1,8 +1,13 @@
-langchain
-langchain-core
-langchain-community
-langchain-ollama
-langchain-chroma
-chromadb
-rank-bm25
-PyMuPDF
+# Teacher RAG - PC build environment (heavy work stays here)
+numpy>=1.26
+PyMuPDF>=1.24
+opencv-python-headless>=4.9      # headless: no GUI needed for the pipeline
+pytesseract>=0.3.13
+PyYAML>=6.0
+click>=8.1
+pytest>=8.0
+sentence-transformers>=3.0       # Phase 5: e5-small passage embeddings
+lancedb>=0.37                    # Phase 6: parent + child tables, BM25, scalar indexes (API tested: list_tables().tables, query_type='hybrid' .vector().text())
+langchain-core>=0.3              # Phase 8: prompt assembly
+langchain-ollama>=0.2            # Phase 8: Ollama/Qwen access (PC smoke tests)
+onnxruntime>=1.18                # Phase 5: ONNX export + INT8 quantization

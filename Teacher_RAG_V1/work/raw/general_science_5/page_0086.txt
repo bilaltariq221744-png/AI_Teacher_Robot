@@ -1,0 +1,26 @@
+Chapter 07 Electricity and Magnetism
+Open Circuit
+Conductors and Insulators
+We have observed in the above activity that in case of closed circuit, electric current passes
+through its components. Does current pass through all kinds of materials in case of closed
+circuit? To know this, let us perform another experiment.
+Collect some objects made of different
+materials such as aluminium foil, a
+pencil, iron wires, copper wires, an eraser,
+glass strip, plastic ruler, etc. materia
+Can you predict, which material will allow
+the current to pass through it?
+Let us confirm it.
+Make a circuit by connecting a bulb, a
+battery and a switch through wires.
+Turn the switch ON. The bulb will glow, which indicates that the current is flowing
+through the circuit.
+Now connect collected objects turn by turn in the circuit according to the figure.
+Observe the bulb. Which materials allow the bulb to glow and which ones do not?
+The material which does not let the bulb glow, cannot conduct current. This shows that
+current can pass through some materials and cannot pass through some other
+materials.
+The materials through which the current can pass are called
+conductors. On the other hand, the materials through
+which the current cannot pass are called insulators.
+83 NOT FOR SALE

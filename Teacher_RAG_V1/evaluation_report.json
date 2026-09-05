@@ -1,0 +1,670 @@
+{
+  "calibrated": true,
+  "threshold": 0.030621785881252923,
+  "metrics": {
+    "total": 36,
+    "hit_rate": 1.0,
+    "groundedness": 1.0,
+    "decline_accuracy": 0.6364,
+    "false_decline_rate": 0.04,
+    "overall_accuracy": 0.8611,
+    "watermark_leak_rate": 0.0,
+    "per_category": {
+      "answerable": {
+        "count": 9,
+        "correct": 1.0
+      },
+      "paraphrased": {
+        "count": 6,
+        "correct": 1.0
+      },
+      "roman_urdu": {
+        "count": 5,
+        "correct": 1.0
+      },
+      "ocr_typo": {
+        "count": 5,
+        "correct": 1.0
+      },
+      "wrong_chapter": {
+        "count": 6,
+        "correct": 0.0
+      },
+      "unrelated": {
+        "count": 5,
+        "correct": 0.0
+      }
+    },
+    "sweep": [
+      {
+        "threshold": 0.0,
+        "overall_accuracy": 0.6944,
+        "false_decline_rate": 0.0,
+        "decline_accuracy": 0.0
+      },
+      {
+        "threshold": 0.016393,
+        "overall_accuracy": 0.6944,
+        "false_decline_rate": 0.0,
+        "decline_accuracy": 0.0
+      },
+      {
+        "threshold": 0.027864,
+        "overall_accuracy": 0.7222,
+        "false_decline_rate": 0.04,
+        "decline_accuracy": 0.1818
+      },
+      {
+        "threshold": 0.028958,
+        "overall_accuracy": 0.75,
+        "false_decline_rate": 0.04,
+        "decline_accuracy": 0.2727
+      },
+      {
+        "threshold": 0.03009,
+        "overall_accuracy": 0.7778,
+        "false_decline_rate": 0.04,
+        "decline_accuracy": 0.3636
+      },
+      {
+        "threshold": 0.030159,
+        "overall_accuracy": 0.8056,
+        "false_decline_rate": 0.04,
+        "decline_accuracy": 0.4545
+      },
+      {
+        "threshold": 0.030282,
+        "overall_accuracy": 0.8333,
+        "false_decline_rate": 0.04,
+        "decline_accuracy": 0.5455
+      },
+      {
+        "threshold": 0.030622,
+        "overall_accuracy": 0.8611,
+        "false_decline_rate": 0.04,
+        "decline_accuracy": 0.6364
+      },
+      {
+        "threshold": 0.03125,
+        "overall_accuracy": 0.8333,
+        "false_decline_rate": 0.08,
+        "decline_accuracy": 0.6364
+      },
+      {
+        "threshold": 0.031281,
+        "overall_accuracy": 0.8611,
+        "false_decline_rate": 0.08,
+        "decline_accuracy": 0.7273
+      },
+      {
+        "threshold": 0.031514,
+        "overall_accuracy": 0.8333,
+        "false_decline_rate": 0.12,
+        "decline_accuracy": 0.7273
+      },
+      {
+        "threshold": 0.031545,
+        "overall_accuracy": 0.8611,
+        "false_decline_rate": 0.12,
+        "decline_accuracy": 0.8182
+      },
+      {
+        "threshold": 0.032266,
+        "overall_accuracy": 0.8333,
+        "false_decline_rate": 0.16,
+        "decline_accuracy": 0.8182
+      },
+      {
+        "threshold": 0.032522,
+        "overall_accuracy": 0.8611,
+        "false_decline_rate": 0.2,
+        "decline_accuracy": 1.0
+      },
+      {
+        "threshold": 0.032787,
+        "overall_accuracy": 0.6389,
+        "false_decline_rate": 0.52,
+        "decline_accuracy": 1.0
+      },
+      {
+        "threshold": 0.032788,
+        "overall_accuracy": 0.3056,
+        "false_decline_rate": 1.0,
+        "decline_accuracy": 1.0
+      }
+    ],
+    "threshold": 0.030621785881252923
+  },
+  "calibration_sweep": [
+    {
+      "threshold": 0.0,
+      "overall_accuracy": 0.6944,
+      "false_decline_rate": 0.0,
+      "decline_accuracy": 0.0
+    },
+    {
+      "threshold": 0.016393,
+      "overall_accuracy": 0.6944,
+      "false_decline_rate": 0.0,
+      "decline_accuracy": 0.0
+    },
+    {
+      "threshold": 0.027864,
+      "overall_accuracy": 0.7222,
+      "false_decline_rate": 0.04,
+      "decline_accuracy": 0.1818
+    },
+    {
+      "threshold": 0.028958,
+      "overall_accuracy": 0.75,
+      "false_decline_rate": 0.04,
+      "decline_accuracy": 0.2727
+    },
+    {
+      "threshold": 0.03009,
+      "overall_accuracy": 0.7778,
+      "false_decline_rate": 0.04,
+      "decline_accuracy": 0.3636
+    },
+    {
+      "threshold": 0.030159,
+      "overall_accuracy": 0.8056,
+      "false_decline_rate": 0.04,
+      "decline_accuracy": 0.4545
+    },
+    {
+      "threshold": 0.030282,
+      "overall_accuracy": 0.8333,
+      "false_decline_rate": 0.04,
+      "decline_accuracy": 0.5455
+    },
+    {
+      "threshold": 0.030622,
+      "overall_accuracy": 0.8611,
+      "false_decline_rate": 0.04,
+      "decline_accuracy": 0.6364
+    },
+    {
+      "threshold": 0.03125,
+      "overall_accuracy": 0.8333,
+      "false_decline_rate": 0.08,
+      "decline_accuracy": 0.6364
+    },
+    {
+      "threshold": 0.031281,
+      "overall_accuracy": 0.8611,
+      "false_decline_rate": 0.08,
+      "decline_accuracy": 0.7273
+    },
+    {
+      "threshold": 0.031514,
+      "overall_accuracy": 0.8333,
+      "false_decline_rate": 0.12,
+      "decline_accuracy": 0.7273
+    },
+    {
+      "threshold": 0.031545,
+      "overall_accuracy": 0.8611,
+      "false_decline_rate": 0.12,
+      "decline_accuracy": 0.8182
+    },
+    {
+      "threshold": 0.032266,
+      "overall_accuracy": 0.8333,
+      "false_decline_rate": 0.16,
+      "decline_accuracy": 0.8182
+    },
+    {
+      "threshold": 0.032522,
+      "overall_accuracy": 0.8611,
+      "false_decline_rate": 0.2,
+      "decline_accuracy": 1.0
+    },
+    {
+      "threshold": 0.032787,
+      "overall_accuracy": 0.6389,
+      "false_decline_rate": 0.52,
+      "decline_accuracy": 1.0
+    },
+    {
+      "threshold": 0.032788,
+      "overall_accuracy": 0.3056,
+      "false_decline_rate": 1.0,
+      "decline_accuracy": 1.0
+    }
+  ],
+  "results": [
+    {
+      "id": "gs5-001",
+      "category": "answerable",
+      "question": "What are the five kingdoms in the Five Kingdom System of classification?",
+      "expected": "answer",
+      "top_score": 0.03278688524590164,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-002",
+      "category": "answerable",
+      "question": "What is a microorganism?",
+      "expected": "answer",
+      "top_score": 0.03252247488101534,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-003",
+      "category": "answerable",
+      "question": "What are the four parts of a flower?",
+      "expected": "answer",
+      "top_score": 0.03278688524590164,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-004",
+      "category": "answerable",
+      "question": "What is environmental pollution?",
+      "expected": "answer",
+      "top_score": 0.03278688524590164,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-005",
+      "category": "answerable",
+      "question": "What is a physical change in matter?",
+      "expected": "answer",
+      "top_score": 0.03278688524590164,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-006",
+      "category": "answerable",
+      "question": "What is the speed of light?",
+      "expected": "answer",
+      "top_score": 0.03252247488101534,
+      "num_blocks": 2,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-007",
+      "category": "answerable",
+      "question": "What are the two types of electric charge?",
+      "expected": "answer",
+      "top_score": 0.03252247488101534,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-008",
+      "category": "answerable",
+      "question": "What is the crust of the Earth?",
+      "expected": "answer",
+      "top_score": 0.03278688524590164,
+      "num_blocks": 2,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-009",
+      "category": "answerable",
+      "question": "Who launched Sputnik-1 and when did the space age begin?",
+      "expected": "answer",
+      "top_score": 0.03278688524590164,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-010",
+      "category": "paraphrased",
+      "question": "Explain how living things are grouped into five main categories.",
+      "expected": "answer",
+      "top_score": 0.031544957774465976,
+      "num_blocks": 2,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-011",
+      "category": "paraphrased",
+      "question": "Why do we need a microscope to study some organisms?",
+      "expected": "answer",
+      "top_score": 0.03278688524590164,
+      "num_blocks": 2,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-012",
+      "category": "paraphrased",
+      "question": "Describe the male and female reproductive parts of a flower.",
+      "expected": "answer",
+      "top_score": 0.03278688524590164,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-013",
+      "category": "paraphrased",
+      "question": "What are the three main types of pollution mentioned in the book?",
+      "expected": "answer",
+      "top_score": 0.03252247488101534,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-014",
+      "category": "paraphrased",
+      "question": "How does ice turn into water when heated?",
+      "expected": "answer",
+      "top_score": 0.03252247488101534,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-015",
+      "category": "paraphrased",
+      "question": "On which date did humans first land on the Moon?",
+      "expected": "answer",
+      "top_score": 0.03278688524590164,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-016",
+      "category": "roman_urdu",
+      "question": "Paanch kingdom system mein organisms kaise classify hote hain?",
+      "expected": "answer",
+      "top_score": 0.03278688524590164,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-017",
+      "category": "roman_urdu",
+      "question": "Microorganism kya hota hai?",
+      "expected": "answer",
+      "top_score": 0.03252247488101534,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-018",
+      "category": "roman_urdu",
+      "question": "Phool ke kitne parts hote hain?",
+      "expected": "answer",
+      "top_score": 0.030621785881252923,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-019",
+      "category": "roman_urdu",
+      "question": "Zameen ki teen layers kya hain?",
+      "expected": "answer",
+      "top_score": 0.03128054740957967,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-020",
+      "category": "roman_urdu",
+      "question": "Static electricity kya hoti hai?",
+      "expected": "answer",
+      "top_score": 0.03278688524590164,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-021",
+      "category": "ocr_typo",
+      "question": "Wat is teh Five Kingdm System of clasification?",
+      "expected": "answer",
+      "top_score": 0.03278688524590164,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-022",
+      "category": "ocr_typo",
+      "question": "What r the mian gropus of microorganisms?",
+      "expected": "answer",
+      "top_score": 0.03252247488101534,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-023",
+      "category": "ocr_typo",
+      "question": "Wat is the strucutre of a flwer?",
+      "expected": "answer",
+      "top_score": 0.01639344262295082,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-024",
+      "category": "ocr_typo",
+      "question": "What is phsyical change in mater?",
+      "expected": "answer",
+      "top_score": 0.032266458495966696,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-025",
+      "category": "ocr_typo",
+      "question": "Wat is teh crust of teh Earth?",
+      "expected": "answer",
+      "top_score": 0.03252247488101534,
+      "num_blocks": 2,
+      "declined": false,
+      "grounded": true,
+      "correct": true,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-026",
+      "category": "wrong_chapter",
+      "question": "What are the main organs of the human digestive system?",
+      "expected": "decline",
+      "top_score": 0.032266458495966696,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": false,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-027",
+      "category": "wrong_chapter",
+      "question": "What is a simple machine and how does a lever work?",
+      "expected": "decline",
+      "top_score": 0.030158730158730156,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": false,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-028",
+      "category": "wrong_chapter",
+      "question": "How do food chains and food webs work in an ecosystem?",
+      "expected": "decline",
+      "top_score": 0.030090497737556562,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": false,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-029",
+      "category": "wrong_chapter",
+      "question": "What causes the four seasons on Earth?",
+      "expected": "decline",
+      "top_score": 0.03125,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": false,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-030",
+      "category": "wrong_chapter",
+      "question": "How does the human respiratory system work?",
+      "expected": "decline",
+      "top_score": 0.02786377708978328,
+      "num_blocks": 2,
+      "declined": false,
+      "grounded": true,
+      "correct": false,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-031",
+      "category": "wrong_chapter",
+      "question": "What are the different types of simple machines used to lift heavy objects?",
+      "expected": "decline",
+      "top_score": 0.0315136476426799,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": false,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-032",
+      "category": "unrelated",
+      "question": "What is the capital of France?",
+      "expected": "decline",
+      "top_score": 0.01639344262295082,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": false,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-033",
+      "category": "unrelated",
+      "question": "Who won the last FIFA World Cup?",
+      "expected": "decline",
+      "top_score": 0.028958333333333336,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": false,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-034",
+      "category": "unrelated",
+      "question": "What is the price of gold today?",
+      "expected": "decline",
+      "top_score": 0.01639344262295082,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": false,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-035",
+      "category": "unrelated",
+      "question": "How do I bake a chocolate cake?",
+      "expected": "decline",
+      "top_score": 0.03028233151183971,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": false,
+      "watermark_leak": false
+    },
+    {
+      "id": "gs5-036",
+      "category": "unrelated",
+      "question": "What is the population of Pakistan?",
+      "expected": "decline",
+      "top_score": 0.032266458495966696,
+      "num_blocks": 1,
+      "declined": false,
+      "grounded": true,
+      "correct": false,
+      "watermark_leak": false
+    }
+  ]
+}
